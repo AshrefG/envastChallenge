@@ -31,7 +31,7 @@ export default function Login() {
           path: "/",
         });
         // redirect user to the auth page
-        window.location.href = "/test";
+        window.location.href = "/home";
         setLogin(true);
         console.log("done");
       })

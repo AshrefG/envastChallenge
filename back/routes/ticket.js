@@ -9,7 +9,7 @@ router.post('/create', createTicket);
 
 router.delete("/:ticketId", deleteTicket);
 
-router.get("/gettickets/", getAllTickets);
+router.get("/get_all/", getAllTickets);
 
 router.put("/:ticketId", updateTicket);
 
