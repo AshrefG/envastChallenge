@@ -17,7 +17,7 @@ const ListTicket = ({ tickets, deleteTicket, updateTicket }) => {
               <div className="card-body">
                 <h5 className="card-title">{ticket.category}</h5>
                 <p className="card-text">{ticket.description}</p>
-                <button type="button" class="btn btn-success" onClick={()=>deleteTicket(ticket._id)}>Update</button>
+                <button type="button" class="btn btn-success" onClick={()=>updateTicket(ticket._id)}>Update</button>
                 <button type="button" class="btn btn-danger" onClick={()=>deleteTicket(ticket._id)}>Delete</button>
 
               </div>
